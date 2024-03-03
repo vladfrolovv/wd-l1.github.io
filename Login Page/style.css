@@ -1,13 +1,3 @@
-body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #8CDBA9;
-}
-
 .centered-container {
     display: flex;
     justify-content: center;
@@ -31,18 +21,22 @@ body {
 }
 
 .info-text {
-    font-size: medium;
+    font-size: small;
     padding-top: 10px;
+    margin: 0;
+}
+
+
+.login-button {
+    background-color: #8CDBA9;
+    border-radius: 10px;
+    border-width: 0;
+    font-family: "Fredoka", sans-serif;
+    color: #33AB5F;
 }
 
 .get-started-text {
     padding: 0;
-    font-size: x-large;
-}
-
-.base-text {
-    color: white;
-    text-align: center;
-    position: relative;
-    font-family: "Fredoka", sans-serif;
+    margin: 0;
+    font-size: large;
 }
